@@ -17,19 +17,17 @@ PECAN_CNS_scanner.py can do all depending on how the Grapher function at the bot
 2. Grapher(gene, collapse_type='collapse_1_2')
 3. Grapher(gene, collapse_type='collapse_2_3')
 
-collapse_type='None': 
+#### collapse_type='None': 
 
 <img width="543" alt="image" src="https://github.com/user-attachments/assets/a973a131-972b-4c46-abec-e25edeb83154" />
 
-collapse_type='collapse_1_2'
+#### collapse_type='collapse_1_2':
 
-<img width="543" alt="image" src="https://github.com/user-attachments/assets/3bf7ca20-9cdd-46f6-90d0-5b72edab6e30)" />
+<img width="543" alt="image" src="https://github.com/user-attachments/assets/3bf7ca20-9cdd-46f6-90d0-5b72edab6e30" />
 
+#### collapse_type='collapse_2_3':
 
-collapse_type='collapse_2_3'
-
-<img width="543" alt="image" src="https://github.com/user-attachments/assets/490b7b95-c8a8-4544-bae5-3dda9c7b8ed0)" />
-
+<img width="543" alt="image" src="https://github.com/user-attachments/assets/490b7b95-c8a8-4544-bae5-3dda9c7b8ed0" />
 
 ## Analyze all genes and plot most significant
 Run cell "4. Plot the top n most significant genes" to run the analyze for every gene in the dataset, plot the most significant, and create a csv file containing significance for all genes.
@@ -37,7 +35,7 @@ Run cell "4. Plot the top n most significant genes" to run the analyze for every
 2. significant_genes = AnalyzeAllGenes("CNS1_2_vs_CNS3")
 3. significant_genes = AnalyzeAllGenes("CNS1_vs_CNS2_3")
 
-csv file:
+#### csv file:
 
 <img width="543" alt="image" src="https://github.com/user-attachments/assets/39390bba-626f-41b8-b953-826ccb3d0c0e" />
 
