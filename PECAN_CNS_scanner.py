@@ -166,6 +166,7 @@ gene_list =[
 
 gene_list = ['NAMPT', 'NAPRT1', 'IDO1', 'DHFR']
 # gene_list = ['PRPF8', 'SRRM1', 'SRRM2', 'ACIN1', 'RNPS1', 'CLK1', 'CLK2', 'CLK3', 'CLK4']
+gene_list = ['SPI1', 'KDM6B']
 
 for gene in gene_list:
     try:
